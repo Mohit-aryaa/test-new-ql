@@ -75,3 +75,66 @@
        }
      }
 }
+.modal-header {
+   .modal-title {
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000;
+    }
+}
+.modal-body {
+   label {
+      font-size: 14px;
+      height: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000;
+   }
+   .form-group {
+      position: relative;
+      .form-error-img {
+         background: url('../../../assets/images/form-error.svg');
+         background-repeat: no-repeat;
+         background-position: 96% 6px;
+     }
+
+   }
+   
+}
+.modal-footer {
+   background-color: #f3f5f8;
+   .submitBtn {
+      width: 114px;
+      height: 40px;
+      font-size: 14px;
+      font-weight: 600;
+   }
+   .cancelBtn {
+      font-size: 14px;
+      height: 40px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #3fa6d9;
+    
+   }
+}
+::ng-deep .iti.iti--allow-dropdown {
+   width: 100%;
+}
+.text-sm {
+   font-size: 12px;
+}
+.ng-invalid.ng-touched {
+   border-color: #dc3545 !important
+}
+
